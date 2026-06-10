@@ -1,0 +1,161 @@
+<div class="custom-geohub-header">
+
+  <!-- Logo and Title -->
+  <div class="geohub-logo-area">
+    <a href="/" class="geohub-logo-link">
+      <img src="https://wlugeography.maps.arcgis.com/sharing/rest/content/items/66a5659417764f818852cb651553fe92/data" alt="Délı̨nę GeoHub Logo" class="geohub-logo">
+    </a>
+
+    <div class="geohub-title">
+      Délı̨nę GeoHub
+    </div>
+  </div>
+
+  <!-- Navigation Tabs -->
+  <nav class="geohub-nav">
+
+    <a href="/" class="geohub-nav-link">Home</a>
+
+    <!-- LRED -->
+    <div class="geohub-dropdown">
+      <a href="#" class="geohub-nav-link">LRED ▾</a>
+
+      <div class="geohub-dropdown-menu">
+        <a href="/pages/community-land~5fb285ad22964597a8f7b6b953041d84">Community Land</a>
+        <a href="#">District Land</a>
+        <a href="#">Land Management</a>
+      </div>
+    </div>
+
+    <!-- Maps & Data -->
+    <div class="geohub-dropdown">
+      <a href="#" class="geohub-nav-link">Maps &amp; Data ▾</a>
+
+      <div class="geohub-dropdown-menu">
+        <a href="#">Web Maps</a>
+        <a href="#">Data Layers</a>
+        <a href="#">3D Scene</a>
+        <a href="/pages/drone-clips">Drone Clips</a>
+      </div>
+    </div>
+
+    <!-- Research -->
+    <div class="geohub-dropdown">
+      <a href="#" class="geohub-nav-link">Research ▾</a>
+
+      <div class="geohub-dropdown-menu">
+        <a href="#">Research 1</a>
+        <a href="#">Research 2</a>
+        <a href="#">Research 3</a>
+      </div>
+    </div>
+
+    <!-- Resources -->
+    <div class="geohub-dropdown">
+      <a href="#" class="geohub-nav-link">Resources ▾</a>
+
+      <div class="geohub-dropdown-menu">
+        <a href="#">Documents</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+
+    <a href="#footer-contact" class="geohub-nav-link">Contact</a>
+
+  </nav>
+</div>
+
+<style>
+  .custom-geohub-header {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    z-index: 9999;
+    font-family: Arial, sans-serif;
+  }
+
+  .geohub-logo-area {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .geohub-logo-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+  }
+
+  .geohub-logo {
+    height: 65px;
+    width: auto;
+    display: block;
+  }
+
+  .geohub-title {
+    margin-left: 24px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+
+  .geohub-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .geohub-nav-link {
+    color: #000000;
+    text-decoration: none;
+    padding: 12px 14px;
+    display: block;
+  }
+
+  .geohub-dropdown {
+    position: relative;
+  }
+
+  .geohub-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 210px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    z-index: 10000;
+  }
+
+  .geohub-dropdown-menu a {
+    display: block;
+    padding: 12px 16px;
+    color: #000000;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .geohub-dropdown:hover .geohub-dropdown-menu {
+    display: block;
+  }
+
+  .geohub-nav-link:hover,
+  .geohub-dropdown-menu a:hover {
+    color: #b00000;
+    background-color: #f5f5f5;
+  }
+</style>
